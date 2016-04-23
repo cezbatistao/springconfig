@@ -9,3 +9,8 @@ mvn spring-boot:run [-Dspring.profiles.active=development]
 `
 
 o parametro entre colchetes é opcional, por padrão é utilizado: __default__
+
+
+Para verificar que está no ar, basta acessar a seguinte url: [http://localhost:8080/configclient/env](http://localhost:8080/configclient/env)
+
+É exibido as variáveis de ambiente da aplicação, no configService é possível verificar as variáveis que estão configuradas para o ambiente(profile) informado ao subir está aplicação
