@@ -1,6 +1,10 @@
+server:
+  contextPath: /configclient
+
 endpoints:
   restart:
     enabled: true
+
 logging:
   levels:
     org.springframework.boot.env.PropertySourcesLoader: TRACE

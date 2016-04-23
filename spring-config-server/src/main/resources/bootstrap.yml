@@ -2,4 +2,4 @@ spring:
   platform:
     config:
       server:
-        uri: https://github.com/cezbatistao/spring-config/spring-config-repo
+        uri: https://github.com/cezbatistao/springconfig-repo

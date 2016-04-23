@@ -1,8 +1,6 @@
 spring:
   application:
-    name: spring-config-client
+    name: sampleconfig
   cloud:
     config:
-      env: default # optional
-      label: master # optional
-      uri: http://localhost:8888 # optional
+      uri: http://localhost:8888/configserver # optional

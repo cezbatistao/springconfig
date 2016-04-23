@@ -15,7 +15,6 @@
         <relativePath/>
     </parent>
 
-
     <modules>
         <module>spring-config-server</module>
         <module>spring-config-client</module>
@@ -36,6 +35,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.7</java.version>
+        <spring.profiles.active>default</spring.profiles.active>
     </properties>
 
     <dependencies>
@@ -76,6 +76,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <jvmArguments>
+                        -Dspring.profiles.active=${spring.profiles.active}
+                    </jvmArguments>
+                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.springframework</groupId>
