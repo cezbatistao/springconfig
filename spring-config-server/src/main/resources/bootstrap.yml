@@ -1,5 +1,6 @@
 spring:
-  platform:
+  cloud:
     config:
       server:
-        uri: https://github.com/cezbatistao/springconfig-repo
+        git:
+          uri: https://github.com/cezbatistao/springconfig-repo
