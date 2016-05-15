@@ -11,10 +11,6 @@
 
     <artifactId>spring-config-client</artifactId>
 
-    <properties>
-        <start-class>br.com.batistao.springconfig.ConfigClientApplication</start-class>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

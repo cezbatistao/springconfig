@@ -10,10 +10,6 @@
 
     <artifactId>spring-config-server</artifactId>
 
-    <properties>
-        <start-class>br.com.batistao.springconfig.ConfigServerApplication</start-class>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
