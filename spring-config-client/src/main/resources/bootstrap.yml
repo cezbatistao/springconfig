@@ -3,4 +3,4 @@ spring:
     name: sampleconfig
   cloud:
     config:
-      uri: http://localhost:8888/configserver # optional
+      uri: http://localhost:8888/configserver
