@@ -22,7 +22,7 @@ public class ConfigClientApplication {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello " + url + "!";
+        return "Hello " + url + "\n";
     }
 
     public static void main(String[] args) {
