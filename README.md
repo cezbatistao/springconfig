@@ -6,3 +6,5 @@ aplicações.
 
 * Veja primeiro [spring-config-server](https://github.com/cezbatistao/springconfig/tree/master/spring-config-server) app que lê as variáveis;
 * Então [spring-config-client](https://github.com/cezbatistao/springconfig/tree/master/spring-config-client) app que disponibiliza as variárias de acordo com o ambiente(profile).
+
+Para mais detalhes verificar artigo: [Externalizando configurações com Spring Cloud Config](https://cezbatistao.wordpress.com/2016/05/18/externalizando-configuracoes-com-spring-cloud/)
