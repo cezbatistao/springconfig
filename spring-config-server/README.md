@@ -13,3 +13,5 @@ Entendendo os paramentros:
 * http://localhost:8888/configserver é o contexto da aplicação
 * sampleconfig é o nome do arquivo de configuração definido no repositório [springconfig-repo](https://github.com/cezbatistao/springconfig-repo)
 * default é o ambiente(profile)
+
+Para mais detalhes verificar artigo: [Externalizando configurações com Spring Cloud Config](https://cezbatistao.wordpress.com/2016/05/18/externalizando-configuracoes-com-spring-cloud/)
