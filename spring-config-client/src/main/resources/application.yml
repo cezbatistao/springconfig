@@ -1,4 +1,5 @@
 server:
+  port: ${PORT:8080}
   contextPath: /configclient
 
 logging:
@@ -9,3 +10,10 @@ logging:
 endpoints:
   restart:
     enabled: true
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

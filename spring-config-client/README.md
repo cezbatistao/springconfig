@@ -5,10 +5,10 @@ ambiente(profile) informado.
 
 Para rodar: 
 `
-mvn spring-boot:run [-Dspring.profiles.active=development]
+mvn spring-boot:run [-Dspring.profiles.active=development] [-Drun.arguments="--PORT=9090"]
 `
 
-o parametro entre colchetes é opcional, por padrão é utilizado: __default__
+os parâmetros entre colchetes são opcionais, por padrão é utilizado: __default__ e __8080__
 
 
 Para verificar que está no ar, basta acessar a seguinte url: [http://localhost:8080/configclient/env](http://localhost:8080/configclient/env)

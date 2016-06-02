@@ -20,7 +20,7 @@ public class ConfigClientApplication {
     @Value("${spring.datasource.url}")
     String url;
 
-    @RequestMapping("/")
+    @RequestMapping("")
     String hello() {
         return "Hello " + url + "\n";
     }
